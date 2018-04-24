@@ -8,6 +8,10 @@ public class Person {
     }
 
     public String getName() {
+<<<<<<< HEAD
         return "foo";
+=======
+        return name;
+>>>>>>> 8bd878d2aecdbad31025220371eb1b1e4306c842
     }
 }

@@ -20,3 +20,10 @@ apply plugin: 'java'
 repositories {
     mavenCentral()
 }
+<<<<<<< HEAD
+=======
+
+dependencies {
+	testCompile 'junit:junit:4.12'
+}
+>>>>>>> 8bd878d2aecdbad31025220371eb1b1e4306c842
