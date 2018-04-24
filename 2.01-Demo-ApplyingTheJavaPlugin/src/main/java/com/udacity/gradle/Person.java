@@ -1,5 +1,7 @@
 package com.udacity.gradle;
 
+import org.apache.commons.lang3.StringUtils;
+
 public class Person {
     private final String name;
 
@@ -12,6 +14,6 @@ public class Person {
     }
 
     public static void main(String[] args){
-        System.out.println("Hello from Java");
+        System.out.println(StringUtils.swapCase("Hello from Java"));
     }
 }

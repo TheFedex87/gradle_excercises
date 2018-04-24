@@ -15,8 +15,6 @@ Exercises:
 4. Run the "hello" task and observe the output.
 
 */
-<<<<<<< HEAD
-=======
 
 class HelloTask extends DefaultTask {
 	@TaskAction
@@ -26,4 +24,3 @@ class HelloTask extends DefaultTask {
 }
 
 task hello(type: HelloTask)
->>>>>>> 8bd878d2aecdbad31025220371eb1b1e4306c842

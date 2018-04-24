@@ -28,8 +28,6 @@ apply plugin: 'java'
 repositories {
     mavenCentral()
 }
-<<<<<<< HEAD
-=======
 
 configurations {
 	deps
@@ -47,4 +45,3 @@ task zipDeps(type: Zip) {
 	from configurations.deps
 
 }
->>>>>>> 8bd878d2aecdbad31025220371eb1b1e4306c842

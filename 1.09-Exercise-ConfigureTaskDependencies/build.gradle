@@ -39,51 +39,36 @@ task brew {
 }
 
 task pour {
-<<<<<<< HEAD
-=======
     dependsOn "brew"
->>>>>>> 8bd878d2aecdbad31025220371eb1b1e4306c842
     doLast {
         println "Pouring. Glug, glug, glug."
     }
 }
 
 task addSweetener {
-<<<<<<< HEAD
-=======
     dependsOn "pour"
->>>>>>> 8bd878d2aecdbad31025220371eb1b1e4306c842
     doLast {
         println "Adding sweetener. Stir, stir, stir."
     }
 }
 
 task drink {
-<<<<<<< HEAD
-=======
     dependsOn "pour"
     shouldRunAfter "addSweetener"
->>>>>>> 8bd878d2aecdbad31025220371eb1b1e4306c842
     doLast {
         println "Drinking. Gulp, gulp, gulp."
     }
 }
 
 task blackCoffee {
-<<<<<<< HEAD
-=======
     dependsOn "drink"
->>>>>>> 8bd878d2aecdbad31025220371eb1b1e4306c842
     doLast {
         println "Mmmm, bitter! just how I like it."
     }
 }
 
 task sweetCoffee {
-<<<<<<< HEAD
-=======
     dependsOn = ["drink", "addSweetener"]
->>>>>>> 8bd878d2aecdbad31025220371eb1b1e4306c842
     doLast {
         println "Mmmm, sweet! just how I like it."
     }

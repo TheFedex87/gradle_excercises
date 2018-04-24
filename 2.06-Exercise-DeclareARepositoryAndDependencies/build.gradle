@@ -27,8 +27,7 @@ http://search.maven.org/
 
 apply plugin: 'java'
 
-<<<<<<< HEAD
-=======
+
 repositories {
 	mavenCentral()
 }
@@ -38,7 +37,6 @@ dependencies {
 	compile fileTree(dir: 'libs', include: '*.jar')
 }
 
->>>>>>> 8bd878d2aecdbad31025220371eb1b1e4306c842
 task printDependencies {
     doLast {
         configurations.compile.each { println it.name }

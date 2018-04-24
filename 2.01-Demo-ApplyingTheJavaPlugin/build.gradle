@@ -47,6 +47,22 @@ part of the core Gradle functionality.
 
 */
 
+repositories {
+	mavenCentral()
+}
+
+dependencies{
+	compile "org.apache.commons:commons-lang3:3.7"
+}
+
+jar {
+	from configurations.compile.collect { zipTree it }
+
+	manifest{
+		attributes "Main-class": "com.udacity.gradle.Person"		
+	}
+}
+
 
 task execute(type: JavaExec) {
     main = "com.udacity.gradle.Person"
