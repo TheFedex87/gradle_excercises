@@ -12,6 +12,12 @@ task tellJoke {
     }
 }
 
+task sayHello{
+    doLast {
+        println "Hi Federico!"
+    }
+}
+
 /*
 
 Let's import this project into Android Studio. Open Android Studio, and from
