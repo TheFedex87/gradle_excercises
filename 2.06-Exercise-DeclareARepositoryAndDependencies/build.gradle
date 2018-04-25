@@ -27,6 +27,7 @@ http://search.maven.org/
 
 apply plugin: 'java'
 
+
 repositories {
 	mavenCentral()
 }

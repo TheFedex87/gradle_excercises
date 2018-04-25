@@ -26,6 +26,7 @@ User Guide chapter regarding the Java plugin.
 https://docs.gradle.org/current/userguide/java_plugin.html#sec:source_sets
 
 */
+
 apply plugin: 'java'
 
 sourceSets {
@@ -42,3 +43,4 @@ jar {
         attributes 'Implementation-Version': version
     }
 }
+
